@@ -310,7 +310,7 @@ fn create_config(
     //////////////////////////////
     // 1. Select color mode
 
-    let default_color_profile = Preset::Rainbow.color_profile();
+    let default_color_profile = Preset::MAP.color_profile();
 
     let select_color_mode = || -> Result<(AnsiMode, &str)> {
         if det_ansi == Some(AnsiMode::Rgb) {
