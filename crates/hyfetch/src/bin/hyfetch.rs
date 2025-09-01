@@ -577,7 +577,7 @@ fn create_config(
                 preset = preset_default_colored
             ),
             &opts[..],
-            Preset::Rainbow.as_ref(),
+            Preset::MAP.as_ref(),
             false,
             color_mode,
         )
