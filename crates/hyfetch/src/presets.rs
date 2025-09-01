@@ -31,7 +31,7 @@ use crate::types::{AnsiMode, TerminalTheme};
 pub enum Preset {
     MAP,
 
-    P-Pride,
+    PPride,
 
     Newgon,
 }
@@ -56,7 +56,7 @@ impl Preset {
             ])
             .and_then(|c| c.with_weights(vec![1, 1, 1, 2, 1, 1, 1])),
 
-            Self::P-Pride => ColorProfile::from_hex_colors(vec![
+            Self::PPride => ColorProfile::from_hex_colors(vec![
                 "#FC4A5B", "#33AAFD", "#FBAF4D", "#F0569E", "#72BD35", "#5AC5E4", "#FF9BD1",
             ]),
 
